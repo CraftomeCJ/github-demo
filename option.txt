@@ -42,3 +42,6 @@ Same as group, but make the repository readable by all users.
 By default, the configuration flag receive.denyNonFastForwards is enabled in shared repositories, so that you cannot force a non fast-forwarding push into it.
 
 If you provide a directory, the command is run inside it. If this directory does not exist, it will be created.
+
+GIT
+Part of the git[1] suite
