@@ -1,0 +1,17 @@
+Files and directories in the template directory whose name do not start with a dot will be copied to the $GIT_DIR after it is created.
+
+The template directory will be one of the following (in order):
+
+the argument given with the --template option;
+
+the contents of the $GIT_TEMPLATE_DIR environment variable;
+
+the init.templateDir configuration variable; or
+
+the default template directory: /usr/share/git-core/templates.
+
+The default template directory includes some directory structure, suggested "exclude patterns" (see gitignore[5]), and sample hook files.
+
+The sample hooks are all disabled by default. To enable one of the sample hooks rename it by removing its .sample suffix.
+
+See githooks[5] for more general info on hook execution.

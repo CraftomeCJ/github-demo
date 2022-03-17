@@ -33,7 +33,7 @@ Use permissions reported by umask(2). The default, when --shared is not specifie
 group (or true)
 Make the repository group-writable, (and g+sx, since the git group may be not the primary group of all users). This is used to loosen the permissions of an otherwise safe umask(2) value. Note that the umask still applies to the other permission bits (e.g. if umask is 0022, using group will not remove read privileges from other (non-group) users). See 0xxx for how to exactly specify the repository permissions.
 
-all (or world or everybody)
+all(or world or everybody)
 Same as group, but make the repository readable by all users.
 
 <perm>
